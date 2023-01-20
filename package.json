@@ -1,6 +1,5 @@
 {
 
-  "homepage": "https://youssef-mo7ey.github.io/ToDo-list",
 
   "name": "vite-project-1",
 
@@ -13,9 +12,7 @@
   "scripts": {
 
     "dev": "vite",
-
-    "predeploy": "npm run build",
-
+    
     "deploy": "gh-pages -d dist",
 
     "build": "vite build",
