@@ -1,6 +1,4 @@
 {
-
-
   "name": "vite-project-1",
 
   "private": true,
@@ -13,14 +11,12 @@
 
     "dev": "vite",
 
-    "predeploy":"npm run build",
-
-    "deploy": "gh-pages -d dist",
-
+    
     "build": "vite build",
-
-    "preview": "vite preview"
-
+    
+    "preview": "vite preview",
+    
+    "deploy":"gh-pages -d dist"
   },
 
   "dependencies": {
